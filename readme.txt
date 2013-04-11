@@ -1,4 +1,4 @@
-=== GreenRope Analytics Plugin ===
+=== GreenRope Analytics ===
 
 Tags: greenrope, analytics, wordpress crm, email marketing, Social Network Marketing, Surveys, Ticketing System, Event Registration System
 
@@ -22,15 +22,15 @@ Enables you to add GreenRope analytics and tracking to every page of your WordPr
 
 == Description ==
 
-# GreenRope: CRM, Email Marketing, and more!
+# GreenRope: CRM, Email Marketing, and more! #
 
-## Now for WordPress!
+## Now for WordPress! ##
 
 ### This plugin is designed to track your WordPress site vistors within your GreenRope account.
 
 Simply install and activate the GreenRope plugin on your WordPress site and enter your account number.  Voila!  The GreenRope tracking code will be dynamically inserted on every page of your WordPress website and the analytics will be available in your GreenRope account.
 
-GreenRope is a powerful, web-based application that allows business owners to consolidate their customer database, create marketing campaigns, send and track invoicing and that’s just the beginning, all while being more efficient and effective than ever before. No matter what kind of small business you are running, we work hard to make your life easier through consolidation while still offering robust features. All your data is stored securely online allowing customers easy access to it from anywhere in the world. All that is needed is an internet connection.
+GreenRope is a powerful, web-based application that allows business owners to consolidate their customer database, create marketing campaigns, send and track invoicing and thats just the beginning, all while being more efficient and effective than ever before. No matter what kind of small business you are running, we work hard to make your life easier through consolidation while still offering robust features. All your data is stored securely online allowing customers easy access to it from anywhere in the world. All that is needed is an internet connection.
 
 All of the features available are accessible from one screen, making this an easy-to-use, feature-packed solution for small business management.
 
