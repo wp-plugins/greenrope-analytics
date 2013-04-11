@@ -26,7 +26,7 @@ Enables you to add GreenRope analytics and tracking to every page of your WordPr
 
 ## Now for WordPress! ##
 
-### This plugin is designed to track your WordPress site vistors within your GreenRope account.
+### This plugin is designed to track your WordPress site vistors within your GreenRope account. ###
 
 Simply install and activate the GreenRope plugin on your WordPress site and enter your account number.  Voila!  The GreenRope tracking code will be dynamically inserted on every page of your WordPress website and the analytics will be available in your GreenRope account.
 
