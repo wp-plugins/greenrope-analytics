@@ -83,7 +83,7 @@ div.updated p, div.error p {
 
 		<span class="title"><?php _e('Helpful Links',ADDANALYTIC_LOCAL_NAME) ?></span>				
 
-		<?php require_once(ABSPATH . WPINC . '/rss.php'); wp_widget_rss_output('http://feeds.feedburner.com/itegritygroup/greenrope?format=xml', array('items' => 5, 'show_author' => 0, 'show_date' => 1));
+		<?php require_once(ABSPATH . WPINC . '/rss.php'); wp_widget_rss_output('https://feeds.feedburner.com/itegritygroup/greenrope?format=xml', array('items' => 5, 'show_author' => 0, 'show_date' => 1));
 
 		?>
 
@@ -93,7 +93,7 @@ div.updated p, div.error p {
 
 		<span class="title"><?php _e('GreenRope News',ADDANALYTIC_LOCAL_NAME) ?></span>				
 
-		<?php require_once(ABSPATH . WPINC . '/rss.php'); wp_widget_rss_output('http://www.greenrope.com/rss.pl?4_116', array('items' => 3, 'show_author' => 0, 'show_date' => 1));
+		<?php require_once(ABSPATH . WPINC . '/rss.php'); wp_widget_rss_output('https://app.greenrope.com/rss.pl?4_116', array('items' => 3, 'show_author' => 0, 'show_date' => 1));
 
 		?>
 
@@ -105,7 +105,7 @@ div.updated p, div.error p {
 
 			<div id="donate-form">
 
-				<img alt="" id="imgITGByteslogo" border="0" src="http://www.bytesinc.com/byteshtml/images/logo.jpg" >
+				<img alt="" id="imgITGByteslogo" border="0" src="http://bytesinc.com/wp-content/uploads/2015/01/Bytes_logo1.png" >
 
 			</div>
 
@@ -154,7 +154,7 @@ div.updated p, div.error p {
 
 			<tr style="vertical-align: top; "><td scope="row" colspan="2"><textarea name="addanalytic_other" id="addanalytic_other" rows="8" cols="80" readonly><script language="JavaScript" type="text/javascript"> 
 <!--
-document.write('<img src="http://app.greenrope.com/wt.pl?a=<?php echo attribute_escape(stripslashes($addanalytic_settings[greenrope_acct])); ?>&r=' + window.document.referrer + '" height="1" width="1">')
+document.write('<img src="https://app.greenrope.com/wt.pl?a=<?php echo attribute_escape(stripslashes($addanalytic_settings[greenrope_acct])); ?>&r=' + window.document.referrer + '" height="1" width="1">')
 //-->
 </script></textarea></td>
 
@@ -271,8 +271,6 @@ function addanalytic_adminhead() {
 
 	global $addanalytic_url;
 
-
-
 ?>
 
 <link rel="stylesheet" type="text/css" href="<?php echo $addanalytic_url ?>/admin-styles.css" />
@@ -315,7 +313,7 @@ function changelogo()
 
 		{
 
-			document.getElementById("imgITGByteslogo").src = "http://www.bytesinc.com/byteshtml/images/logo.jpg";
+			document.getElementById("imgITGByteslogo").src = "http://bytesinc.com/wp-content/uploads/2015/01/Bytes_logo1.png";
 
 		}
 

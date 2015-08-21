@@ -4,8 +4,6 @@
 
 Plugin Name: GreenRope Analytics
 
-Version:     1.0
-
 Plugin URI:  http://itegritygroup.com/wordpress/plugins/greenrope/
 
 Description: Plugin to add GreenRope Analytics to the footer of your WordPress pages
@@ -14,15 +12,14 @@ Author:      ITegrity - Bytes, Inc.
 
 Author URI:  http://itegritygroup.com/ , http://bytesinc.com/
 
-
+Version:     1.1
+Updated to SSL by Vince Loschiavo - vince@greenrope.com 
 
 */
 
 
 
 if (!defined('ABSPATH')) die("Aren't you supposed to come here via WP-Admin?");
-
-
 
 define('BYTE_ADDANALYTIC_DIR', dirname(__FILE__));
 
@@ -82,7 +79,7 @@ function byte_addanalytic() {
 
 	<script language="JavaScript" type="text/javascript">	
 
-	document.write('<img src="http://app.greenrope.com/wt.pl?a=<?php echo $greenrope_acct; ?>&r=' + window.document.referrer + '" height="1" width="1">')
+	document.write('<img src="https://app.greenrope.com/wt.pl?a=<?php echo $greenrope_acct; ?>&r=' + window.document.referrer + '" height="1" width="1">')
 
 	</script>
 	<!-- End Greenrope Analytics -->
